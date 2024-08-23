@@ -1,4 +1,4 @@
-class Solution:
+``class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:
         s2=s[::-1]
         dp=[[-1]*(len(s2)+1) for c in range(len(s)+1)]
@@ -28,4 +28,4 @@ class Solution:
         #         return dp[i][j]
         #     dp[i][j]=max(abc(i-1,j),abc(i,j-1))
         #     return dp[i][j]
-        # return abc(len(s)-1,len(s2)-1)
+        # return abc(len(s)-1,len(s2)-1)``
